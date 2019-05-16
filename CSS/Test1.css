@@ -1,0 +1,312 @@
+
+body{
+    margin: 0;
+
+}
+header{
+
+    height: 80px;
+    margin: auto;
+    margin-top: -7px;
+}
+header .logoStyle{
+    margin-left: 155px;
+}
+header .nameStyle{
+
+    padding-left: 108px;
+}
+
+
+.box{
+    width: 100%;
+    height: 42px;
+    background-color: #3b8de3;
+
+
+}
+.con{
+    width: 1180px;
+    height: 100%;
+    margin: auto;
+
+}
+.box a{
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+.left{
+    width: 690px;
+    height: 100%;
+    float: left;
+
+}
+.left a{
+    float:left;
+    width:20%;
+    height: 100%;
+}
+.box .right{
+    width:240px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.right a{
+    float:right;
+    width:33.333%;
+    height: 100%;
+
+}
+.left .active{
+    color: #3b8de3;
+    background-color: white;
+    border-top:2px solid orange ;
+}
+.left a:hover{
+    color: #3b8de3;
+    background-color: white;
+    border-top:2px solid orange ;
+}
+.hover{
+}
+.right a:hover{
+    background-color: #4140ff;
+}
+.right .login{
+    background: url("../imgs/img.png") no-repeat -312px -500px;
+}
+.sanjiao{
+    height: 0;
+    width: 0;
+    border-top: 10px solid #ffffff;
+    border-left: 5px solid #3b8de3;
+    border-right: 5px solid #3b8de3;
+    position: absolute;
+    left:232px;
+    top:16px;
+}
+
+/**热门城市**/
+/**
+    继承的概念  什么样的属性可以继承:所有关于文字修饰的属性都能继承  继承的属性的优先级是最低的  &nbsp 空格
+    交叉选择器 .class类名.class类名
+**/
+/****/
+/****/
+/****/
+
+.hot{
+    width: 1180px;
+    margin: auto;
+    padding:0 0 100px 100px ;/**内边距 上下左右   三个值 （上 左右 下 ） **/
+    margin:8px 0;/**外边距**/
+    font-size: 14px;
+}
+.hot span{
+    float: left;
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.hot a{
+    float: left;
+    text-decoration: none;
+    color: blue;
+    margin:0 5px ;
+}
+.wheel-box{
+    width: 100%;
+    height: 393px;
+    margin-top: -80px;
+    position: relative;
+}
+.wheel-box .banner1{
+    width: 100%;
+    height: 380px;
+    background: url("../Imgs/banner1.png") no-repeat center;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+
+}
+.wheel-box .banner2{
+    width: 100%;
+    height: 380px;
+    position: absolute;
+    left: 0;
+    background: url("../Imgs/banner2.png") no-repeat center;
+    z-index: 2;
+}
+.btns{
+    width: 100px;
+    height: 5px;
+
+    position: absolute;
+    right: 130px;
+    bottom:17px;
+    z-index: 3;
+
+}
+.btn1{
+    color: black;
+    width: 40%;
+    float: left;
+    border: 2px solid black;
+
+
+
+}
+.btn2{
+    width: 40%;
+    float: right;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+/**热门航线**/
+.aplits{
+    width:70%;
+    height:40px;
+    margin: auto;
+    color: black;
+
+}
+.aplits span{
+    color: black;
+    font-size: 18px;
+}
+.aplits .borderStyle{
+    border-bottom:2px solid darkgray;
+}
+.aplits a{
+    color: #000;
+    float: right;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.aplits a:hover{
+    color: blue;
+    border-bottom:2px solid #3b8de3;
+
+}
+/**热门航线**/
+/**机票**/
+.tickets{
+    width: 70%;
+
+    margin: auto;
+}
+.tickets .ticket{
+    float: left;
+    width: 225px;
+    height: 154px;
+    background: url("../Imgs/carl.png") no-repeat left;
+    margin-right: 20px;
+    position: relative;
+}
+.tickets .ticket .citys{
+    width: 225px;
+    height: 45px;
+    position: absolute;
+    left:0 ;
+    top: 0;
+    font-size: 16px;
+
+
+}
+.tickets .ticket .citys .fromCity{
+    float: left;
+    width:90px;
+    height:40px;
+    position: absolute;
+    left:0px;
+    top: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: right;
+}
+.tickets .ticket .citys .andImg{
+    float: left;
+    width:40px;
+    height:5px;
+    position:absolute;
+    left:95px ;
+    top: 40px;
+    font-size:16px;
+    background: url("../Imgs/img.png") no-repeat -28px -79px;
+
+}
+.tickets .ticket .citys .toCity{
+    float: left;
+    width:90px;
+    height:40px;
+    position: absolute;
+    right:-5px;
+    top: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+
+
+}
+.tickets .ticket .date{
+    width: 225px;
+    height: 21.2px;
+    color: blue;
+    position: absolute;
+    left:75px;
+    top: 65px;
+    font-size: 18px;
+
+    margin: auto;
+}
+.tickets .ticket .spend{
+    width: 225px;
+    height: 68px;
+    position: absolute;
+    left:55px;
+    bottom:-20px;
+    font-size: 18px;
+
+    margin: auto;
+}
+.tickets .ticket .spend .plane{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    left:0px;
+    top: 0;
+    background: url("../Imgs/img.png") no-repeat -36px -106px;
+
+}
+.tickets .ticket .spend .piaojia{
+    width: 42px;
+    height: 15.2px;
+    position: absolute;
+    left:22px;
+    top: 0px;
+}
+.tickets .ticket .spend .meiyuanfu{
+    width: 16px;
+    height: 20.8px;
+    position: absolute;
+    left:60px;
+    top: 0px;
+    color: orangered;
+    font-size: 20px;
+}
+.tickets .ticket .spend .money{
+    width: 46.73px;
+    height: 32px;
+    position: absolute;
+    left:75px;
+    top: 0px;
+    color: orangered;
+    font-size: 20px;
+}
+.ticket:hover{
+    background: url("../Imgs/carl.png") no-repeat right;
+}
+/**机票**/

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一个Title</title>
+
+    <style>
+        div{
+            border: 1px solid red;
+           /* overflow: hidden; 本意：对于超出的内容进行处理 ，但是能有效解决浮动带来的问题*/
+            width: 100px;
+            height:100px;
+        }
+
+        span{
+
+            border: 1px solid red;
+        }
+
+        .box div:nth-child(1){
+            position: absolute;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <!--<div style="clear:both"></div>-->
+    </div>
+
+
+
+    <span>a</span>
+    <span>b</span>
+
+    <a href="http://baidu.com">百度百度百度</a>
+    
+    <img src="images/1.jpg" alt="这是一张图片(行内块元素)" width="100" height="" title="这是一张图片">
+    <img src="images/1.jpg" alt="这是一张图片" width="100" height="" title="这是一张图片">
+
+    <ul>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+    </ul>
+
+    <ol>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+    </ol>
+
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>班级</th>
+        </tr>
+
+        <tr>
+            <td>张三</td>
+            <td>20</td>
+            <td>Java班</td>
+        </tr>
+
+        <tr>
+            <td>张三</td>
+            <td>20</td>
+            <td>Java班</td>
+        </tr>
+    </table>
+
+    <strong>粗体</strong>
+    <b>粗体</b>
+    <em>斜体</em>
+    <i>斜体</i>
+    <del>删除线</del>
+    <s>删除线</s>
+
+
+</body>
+</html>

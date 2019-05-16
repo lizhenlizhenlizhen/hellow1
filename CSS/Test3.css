@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.one{
+    height: 50px;
+    background: #3b8de3;
+}
+
+.two{
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.left{
+    float: left;
+    width: 690px;
+}
+
+.right{
+    float: right;
+    width: 240px;
+}
+
+.left a{
+    padding: 0 30px;
+    color: white;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.right a{
+    padding: 0 15px;
+    color: white;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
